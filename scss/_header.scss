@@ -1,0 +1,34 @@
+.white-color {
+    color: $white-color;
+}
+
+.header-logo {
+    width: 41px;
+    height: 41px;
+    background-color: $main-blue;
+    text-align: center;
+    color: #fff; 
+    font: {
+        size: 26px;
+        weight: 700;
+    }
+}
+
+button[aria-expanded="true"]+.shown {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+} 
+
+.nav-custom {
+    position: initial;
+}
+
+@media (min-width: 992px) {
+    .nav-custom {
+        position: relative;
+    }
+}
+

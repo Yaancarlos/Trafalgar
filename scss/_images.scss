@@ -1,0 +1,16 @@
+.first-img {
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .first-img {
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .first-img {
+        max-width: 693px;
+    }
+}

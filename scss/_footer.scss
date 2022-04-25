@@ -1,0 +1,20 @@
+.bg-footer {
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+.footer-logo {
+    width: 10rem;
+}
+
+.media-direction-footer {
+    flex-direction: column;
+}
+
+@media(min-width: 720px){
+    .media-direction-footer {
+        flex-direction: row;
+    }
+}
+
+.footer-link:hover {
+    color: rgb(234, 234, 234) !important;
+}
