@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trafalgar</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="./public/css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 </head>
 <body>
     <header class="container d-flex sticky-top bg-white px-4 py-3 justify-content-between">
@@ -191,25 +191,25 @@
         <div class="d-flex container justify-content-center flex-column">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active" data-bs-interval="10000">
-                        <div class="carousel-bg position-relative p-3 pt-md-5">
-                            <div class="carousel-custom-caption d-none d-md-block">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="carousel-bg h-auto position-relative p-3 pt-md-5">
+                            <div class="carousel-custom-caption d-block">
                                 <div class="text-white carousel-content d-flex flex-column">
                                     <div class="my-4">
                                         <h2 class="fw-bold text-center">What our customers are saying</h2>
                                         <div class="small-line-w mx-auto mt-3"></div>
                                     </div> 
-                                    <div class="d-flex justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
-                                        <div class="d-flex align-items-center gap-4 px-md-4">
+                                    <div class="d-flex flex-column flex-md-row justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
+                                        <div class="d-flex flex-column flex-md-row align-items-center gap-4 px-md-4">
                                             <img loading="lazy" src="./img/niggaone.png" alt="" class="rounded-circle">
-                                            <div>
+                                            <div class="text-center text-md-start">
                                                 <h5 class="fw-bold">Edward Newgate</h5>
                                                 <span>Founder circle</span>
                                             </div>
                                         </div>
-                                        <div class="px-xl-5 px-sm-4 w-50 d-flex align-items-center justify-content-center">
+                                        <div class="px-xl-5 px-sm-4 col-12 col-md-6 d-flex align-items-center justify-content-center">
                                             <p class="px-xl-5 mb-0">
-                                            “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
+                                                “Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
                                             </p>
                                         </div>
                                     </div>
@@ -217,51 +217,50 @@
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <div class="carousel-bg position-relative p-3 pt-md-5">
-                            <div class="carousel-custom-caption d-none d-md-block">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="carousel-bg h-auto position-relative p-3 pt-md-5">
+                            <div class="carousel-custom-caption d-block">
                                 <div class="text-white carousel-content d-flex flex-column">
                                     <div class="my-4">
                                         <h2 class="fw-bold text-center">What our customers are saying</h2>
                                         <div class="small-line-w mx-auto mt-3"></div>
                                     </div> 
-                                    <div class="d-flex justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
-                                        <div class="d-flex align-items-center gap-4 px-md-4">
-                                            <img loading="lazy" src="./img/Buddy_christ.jpg" width="133" height="133" alt="" class="rounded-circle border-3">
-                                            <div>
-                                                <h5 class="fw-bold">Jisus</h5>
-                                                <span>Random man</span>
+                                    <div class="d-flex col flex-column flex-md-row justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
+                                        <div class="d-flex flex-column flex-md-row align-items-center gap-4 px-md-4">
+                                            <img loading="lazy" src="./img/niggaone.png" alt="" class="rounded-circle">
+                                            <div class="text-center text-md-start">
+                                                <h5 class="fw-bold">Lorem ipsum</h5>
+                                                <span>Lorem ipsum</span>
                                             </div>
                                         </div>
-                                        <div class="px-xl-5 px-sm-4 w-50 d-flex align-items-center justify-content-center">
+                                        <div class="px-xl-5 px-sm-4 col-12 col-md-6 d-flex align-items-center justify-content-center">
                                             <p class="px-xl-5 mb-0">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis molestias omnis, obcaecati, aliquam in pariatur doloribus consequuntur eum nemo debitis, vitae optio natus quo quia et cum neque ipsa magnam.
+                                            “Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum sint nesciunt quos? Totam, ipsa alias repellat eveniet qui fuga tempore. Consequuntur et nam commodi aperiam quaerat.”
                                             </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-bg position-relative p-3 pt-md-5">
-                            <div class="carousel-custom-caption d-none d-md-block">
+                    </div><div class="carousel-item active" data-bs-interval="3000">
+                        <div class="carousel-bg h-auto position-relative p-3 pt-md-5">
+                            <div class="carousel-custom-caption d-block">
                                 <div class="text-white carousel-content d-flex flex-column">
                                     <div class="my-4">
                                         <h2 class="fw-bold text-center">What our customers are saying</h2>
                                         <div class="small-line-w mx-auto mt-3"></div>
                                     </div> 
-                                    <div class="d-flex justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
-                                        <div class="d-flex align-items-center gap-4 px-md-4">
-                                            <img loading="lazy" src="./img/petrosky.jpg" width="133" height="133" alt="" class="rounded-circle">
-                                            <div>
-                                                <h5 class="fw-bold">Petrosky</h5>
-                                                <span>Random man</span>
+                                    <div class="d-flex flex-column flex-md-row justify-content-between my-4 my-lg-5 py-4 gap-5 px-md-3 px-xl-5">
+                                        <div class="d-flex flex-column flex-md-row align-items-center gap-4 px-md-4">
+                                            <img loading="lazy" src="./img/niggaone.png" alt="" class="rounded-circle">
+                                            <div class="text-center text-md-start">
+                                                <h5 class="fw-bold">sit amet consectetur</h5>
+                                                <span>Lorem ipsum</span>
                                             </div>
                                         </div>
-                                        <div class="px-xl-5 px-sm-4 w-50 d-flex align-items-center justify-content-center">
+                                        <div class="px-xl-5 px-sm-4 col-12 col-md-6 d-flex align-items-center justify-content-center">
                                             <p class="px-xl-5 mb-0">
-                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat id provident laboriosam assumenda unde, expedita voluptate architecto, natus eos placeat dolorum aperiam iure explicabo excepturi ducimus ut eveniet officia cupiditate!
+                                            “Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit adipisci assumenda eveniet repellendus aliquam, ullam temporibus a beatae, consequuntur et nam commodi aperiam quaerat." 
                                             </p>
                                         </div>
                                     </div>
@@ -421,6 +420,7 @@
             </div>
         </div>
     </footer>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
